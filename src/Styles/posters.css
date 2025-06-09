@@ -1,0 +1,47 @@
+.backgroundPoster {
+  width: 100%;
+  background-color: #edf3fb; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.image1 {
+  width: 70%;
+  max-width: 1200px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.head {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+
+.con1,
+.con2 {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edf3fb;
+}
+
+
+.image2 {
+  width: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
