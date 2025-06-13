@@ -1,0 +1,179 @@
+.course-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #eef5ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.class-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);    
+  width: 360px;
+  height: inherit;
+  padding: 16px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.live-tag {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 4px 10px;
+  display: inline-block;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.course-features li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e1e1e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-tax-note {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #0047ff;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.part1content {
+    display: flex;
+    gap: 30px;
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headcourse {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e1e1e;
+    padding-top: auto;
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #1e1e1e;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-button:hover {
+  border-color: #0047ff;
+  background-color: #f0f4ff;
+}
+
+.filter-button:focus,
+.filter-button:active {
+  outline: none;
+  border: 1.5px solid #0047ff;
+  background-color: #e8f0fe;
+  color: #0047ff;
+}
+
+
+.filter-button:nth-child(2) {
+  border: 1.5px solid #0047ff;
+  color: #0047ff;
+  background-color: #e8f0fe;
+}
+
+.ok {
+    background-color: white;
+}
+.badge-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.badge {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 14px;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.default-badge {
+  background-color: #000;
+  color: #fff;
+}
+
+.scholarship {
+  background-color: #f7941e;
+  color: white;
+  font-weight: 600;
+  position: relative;
+}

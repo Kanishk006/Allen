@@ -39,7 +39,7 @@ const Footer = () => {
     <footer className="footer-container">
         <div className="footer-container-inner">
         <div className="footer-image">
-        <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731483494/light_sx6iyk.webp" alt="Footer Banner" />
+        <img src="https://i.ibb.co/TqrhYm6M/pp.jpg" alt="Footer Banner" />
       </div>
       <div className="footer-links-row">
         {footerLinks.map((section, idx) => (

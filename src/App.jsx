@@ -1,20 +1,25 @@
 import Navbar from "./components/Navbar"
-import RankComp from "./components/RankComp"
-import Courses from "./components/Choice"
-import Posters from "./components/posters"
-import Advantage from "./components/Advantage"
-import Testimonials from "./components/testimonials"
 import Footer from "./components/Footer"
+import Home from "./pages/Home"
+import { BrowserRouter, Routes , Route } from "react-router-dom"
+import Class12 from "./components/Class12"
+import Studymaterial from "./components/Studymaterial"
+import Testseries from "./components/Testseries"
+import More from "./components/More"
 function App() {
   return (
     <>
+    <BrowserRouter>
     <Navbar/>
-    <RankComp/>
-    <Courses/>
-    <Posters/>
-    <Advantage/>
-    <Testimonials/>
+    <Routes>
+        <Route path = "/" element = {<Home/>}/>
+        <Route path = "/Class-12" element = {<Class12/>}/>
+        <Route path = "/Test-series" element = {<Testseries/>}/>
+        <Route path = "/Study-materials" element = {<Studymaterial/>}/>
+        <Route path = "/More" element = {<More/>}/>
+    </Routes>
     <Footer/>
+    </BrowserRouter>
     </>
   )
 }

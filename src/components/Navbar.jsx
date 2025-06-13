@@ -1,17 +1,14 @@
 import "../Styles/navbar.css"
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
         <div className='container'>
             <div className='options-container'>
-                <img src='https://i.ibb.co/bMnyybKN/allen.png' className='logo'></img>
-                <h1 className='option'>Courses</h1>
-                <h1 className='option'>Test Series</h1>
-                <h1 className='option'>Results</h1>
-                <h1 className='option'>Courses</h1>
-                <h1 className='option'>Study Materials</h1>
-                <h1 className='option'>Scholarships</h1>
-                <h1 className='option'>Books</h1>
+                <Link to = "/"><img src='https://i.ibb.co/bMnyybKN/allen.png' className='logo'></img></Link>
+                <Link to="/Class-12" className="option">Courses</Link>
+                <Link to="/Test-series" className="option">Test Series</Link>
+                <Link to="/Study-materials" className="option">Results</Link>
+                <Link to="/More" className="option">More</Link>
             </div>
             <div>
                 <button className='option1'>Login</button>
